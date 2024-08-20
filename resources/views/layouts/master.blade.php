@@ -104,7 +104,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="{{route('adminShowDepartments')}}" class="nav-link">
               <i class="nav-icon fa fa-university text-warning"></i>
               <p>Departments</p>
             </a>
@@ -117,9 +117,9 @@
           </li>
 
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="{{route('adminShowClass')}}" class="nav-link">
               <i class="nav-icon fa fa-calendar text-danger"></i>
-              <p>Clases</p>
+              <p>Classes</p>
             </a>
           </li>
 
